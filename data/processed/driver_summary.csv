@@ -1,0 +1,6 @@
+driver,label,avg_rating,correlation,gap,fix_first_score,fix_first_rank
+delivery_speed,Delivery speed,3.84,0.725,1.16,0.843,1
+product_quality,Product quality,4.02,0.677,0.98,0.662,2
+price,Price,3.99,0.652,1.01,0.661,3
+store_cleanliness,Store cleanliness,3.99,0.641,1.01,0.646,4
+staff_service,Staff service,4.06,0.688,0.94,0.644,5

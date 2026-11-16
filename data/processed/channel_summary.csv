@@ -1,0 +1,4 @@
+channel,responses,promoters,passives,detractors,promoter_pct,detractor_pct,nps,avg_satisfaction,avg_product_quality,avg_price,avg_delivery_speed,avg_staff_service,avg_store_cleanliness
+In-store,172,73,66,33,42.44,19.19,23.26,4.12,4.06,4.02,4.02,4.16,4.06
+Online,110,41,37,32,37.27,29.09,8.18,3.9,4.03,3.94,3.49,3.84,3.91
+Phone,68,24,28,16,35.29,23.53,11.76,4.0,3.91,3.97,3.94,4.18,3.94

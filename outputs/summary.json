@@ -1,0 +1,359 @@
+{
+  "buyer": "CityMart (SAMPLE)",
+  "period": "2026-01-01 to 2026-06-30",
+  "days": 181,
+  "total_responses": 350,
+  "overall": {
+    "responses": 350,
+    "promoters": 138,
+    "passives": 131,
+    "detractors": 81,
+    "promoter_pct": 39.43,
+    "detractor_pct": 23.14,
+    "nps": 16.29,
+    "avg_satisfaction": 4.03,
+    "avg_product_quality": 4.02,
+    "avg_price": 3.99,
+    "avg_delivery_speed": 3.84,
+    "avg_staff_service": 4.06,
+    "avg_store_cleanliness": 3.99
+  },
+  "by_branch": [
+    {
+      "branch": "Lahore \u2014 Gulberg",
+      "responses": 130,
+      "promoters": 66,
+      "passives": 43,
+      "detractors": 21,
+      "promoter_pct": 50.77,
+      "detractor_pct": 16.15,
+      "nps": 34.62,
+      "avg_satisfaction": 4.25,
+      "avg_product_quality": 4.19,
+      "avg_price": 4.2,
+      "avg_delivery_speed": 4.18,
+      "avg_staff_service": 4.3,
+      "avg_store_cleanliness": 4.25
+    },
+    {
+      "branch": "Karachi \u2014 Clifton",
+      "responses": 146,
+      "promoters": 49,
+      "passives": 57,
+      "detractors": 40,
+      "promoter_pct": 33.56,
+      "detractor_pct": 27.4,
+      "nps": 6.16,
+      "avg_satisfaction": 3.99,
+      "avg_product_quality": 3.95,
+      "avg_price": 3.87,
+      "avg_delivery_speed": 3.81,
+      "avg_staff_service": 3.98,
+      "avg_store_cleanliness": 3.95
+    },
+    {
+      "branch": "Rawalpindi \u2014 Saddar",
+      "responses": 74,
+      "promoters": 23,
+      "passives": 31,
+      "detractors": 20,
+      "promoter_pct": 31.08,
+      "detractor_pct": 27.03,
+      "nps": 4.05,
+      "avg_satisfaction": 3.73,
+      "avg_product_quality": 3.86,
+      "avg_price": 3.84,
+      "avg_delivery_speed": 3.3,
+      "avg_staff_service": 3.81,
+      "avg_store_cleanliness": 3.62
+    }
+  ],
+  "best_branch": "Lahore \u2014 Gulberg",
+  "best_branch_nps": 34.62,
+  "worst_branch": "Rawalpindi \u2014 Saddar",
+  "worst_branch_nps": 4.05,
+  "branch_nps_gap": 30.57,
+  "by_channel": [
+    {
+      "channel": "In-store",
+      "responses": 172,
+      "promoters": 73,
+      "passives": 66,
+      "detractors": 33,
+      "promoter_pct": 42.44,
+      "detractor_pct": 19.19,
+      "nps": 23.26,
+      "avg_satisfaction": 4.12,
+      "avg_product_quality": 4.06,
+      "avg_price": 4.02,
+      "avg_delivery_speed": 4.02,
+      "avg_staff_service": 4.16,
+      "avg_store_cleanliness": 4.06
+    },
+    {
+      "channel": "Online",
+      "responses": 110,
+      "promoters": 41,
+      "passives": 37,
+      "detractors": 32,
+      "promoter_pct": 37.27,
+      "detractor_pct": 29.09,
+      "nps": 8.18,
+      "avg_satisfaction": 3.9,
+      "avg_product_quality": 4.03,
+      "avg_price": 3.94,
+      "avg_delivery_speed": 3.49,
+      "avg_staff_service": 3.84,
+      "avg_store_cleanliness": 3.91
+    },
+    {
+      "channel": "Phone",
+      "responses": 68,
+      "promoters": 24,
+      "passives": 28,
+      "detractors": 16,
+      "promoter_pct": 35.29,
+      "detractor_pct": 23.53,
+      "nps": 11.76,
+      "avg_satisfaction": 4.0,
+      "avg_product_quality": 3.91,
+      "avg_price": 3.97,
+      "avg_delivery_speed": 3.94,
+      "avg_staff_service": 4.18,
+      "avg_store_cleanliness": 3.94
+    }
+  ],
+  "best_channel": "In-store",
+  "best_channel_nps": 23.26,
+  "worst_channel": "Online",
+  "worst_channel_nps": 8.18,
+  "by_driver": [
+    {
+      "driver": "delivery_speed",
+      "label": "Delivery speed",
+      "avg_rating": 3.84,
+      "correlation": 0.725,
+      "gap": 1.16,
+      "fix_first_score": 0.843,
+      "fix_first_rank": 1
+    },
+    {
+      "driver": "product_quality",
+      "label": "Product quality",
+      "avg_rating": 4.02,
+      "correlation": 0.677,
+      "gap": 0.98,
+      "fix_first_score": 0.662,
+      "fix_first_rank": 2
+    },
+    {
+      "driver": "price",
+      "label": "Price",
+      "avg_rating": 3.99,
+      "correlation": 0.652,
+      "gap": 1.01,
+      "fix_first_score": 0.661,
+      "fix_first_rank": 3
+    },
+    {
+      "driver": "store_cleanliness",
+      "label": "Store cleanliness",
+      "avg_rating": 3.99,
+      "correlation": 0.641,
+      "gap": 1.01,
+      "fix_first_score": 0.646,
+      "fix_first_rank": 4
+    },
+    {
+      "driver": "staff_service",
+      "label": "Staff service",
+      "avg_rating": 4.06,
+      "correlation": 0.688,
+      "gap": 0.94,
+      "fix_first_score": 0.644,
+      "fix_first_rank": 5
+    }
+  ],
+  "fix_first": [
+    {
+      "label": "Delivery speed",
+      "avg_rating": 3.84,
+      "correlation": 0.725,
+      "fix_first_score": 0.843
+    },
+    {
+      "label": "Product quality",
+      "avg_rating": 4.02,
+      "correlation": 0.677,
+      "fix_first_score": 0.662
+    },
+    {
+      "label": "Price",
+      "avg_rating": 3.99,
+      "correlation": 0.652,
+      "fix_first_score": 0.661
+    }
+  ],
+  "months": [
+    {
+      "month": "2026-01",
+      "responses": 49,
+      "promoters": 11,
+      "passives": 25,
+      "detractors": 13,
+      "promoter_pct": 22.45,
+      "detractor_pct": 26.53,
+      "nps": -4.08,
+      "avg_satisfaction": 3.86,
+      "avg_product_quality": 3.96,
+      "avg_price": 3.92,
+      "avg_delivery_speed": 3.8,
+      "avg_staff_service": 4.02,
+      "avg_store_cleanliness": 3.82,
+      "nps_change_points": null
+    },
+    {
+      "month": "2026-02",
+      "responses": 47,
+      "promoters": 24,
+      "passives": 15,
+      "detractors": 8,
+      "promoter_pct": 51.06,
+      "detractor_pct": 17.02,
+      "nps": 34.04,
+      "avg_satisfaction": 4.04,
+      "avg_product_quality": 3.98,
+      "avg_price": 3.89,
+      "avg_delivery_speed": 3.68,
+      "avg_staff_service": 4.02,
+      "avg_store_cleanliness": 4.0,
+      "nps_change_points": 38.12
+    },
+    {
+      "month": "2026-03",
+      "responses": 65,
+      "promoters": 30,
+      "passives": 21,
+      "detractors": 14,
+      "promoter_pct": 46.15,
+      "detractor_pct": 21.54,
+      "nps": 24.62,
+      "avg_satisfaction": 4.14,
+      "avg_product_quality": 4.09,
+      "avg_price": 4.09,
+      "avg_delivery_speed": 4.02,
+      "avg_staff_service": 4.18,
+      "avg_store_cleanliness": 4.03,
+      "nps_change_points": -9.42
+    },
+    {
+      "month": "2026-04",
+      "responses": 54,
+      "promoters": 24,
+      "passives": 19,
+      "detractors": 11,
+      "promoter_pct": 44.44,
+      "detractor_pct": 20.37,
+      "nps": 24.07,
+      "avg_satisfaction": 4.07,
+      "avg_product_quality": 4.07,
+      "avg_price": 3.91,
+      "avg_delivery_speed": 3.87,
+      "avg_staff_service": 4.06,
+      "avg_store_cleanliness": 4.02,
+      "nps_change_points": -0.55
+    },
+    {
+      "month": "2026-05",
+      "responses": 74,
+      "promoters": 22,
+      "passives": 29,
+      "detractors": 23,
+      "promoter_pct": 29.73,
+      "detractor_pct": 31.08,
+      "nps": -1.35,
+      "avg_satisfaction": 3.92,
+      "avg_product_quality": 3.95,
+      "avg_price": 3.88,
+      "avg_delivery_speed": 3.77,
+      "avg_staff_service": 3.96,
+      "avg_store_cleanliness": 3.97,
+      "nps_change_points": -25.42
+    },
+    {
+      "month": "2026-06",
+      "responses": 61,
+      "promoters": 27,
+      "passives": 22,
+      "detractors": 12,
+      "promoter_pct": 44.26,
+      "detractor_pct": 19.67,
+      "nps": 24.59,
+      "avg_satisfaction": 4.13,
+      "avg_product_quality": 4.08,
+      "avg_price": 4.2,
+      "avg_delivery_speed": 3.85,
+      "avg_staff_service": 4.13,
+      "avg_store_cleanliness": 4.08,
+      "nps_change_points": 25.94
+    }
+  ],
+  "nps_trend_jan_to_jun_points": 28.67,
+  "best_month": "2026-02",
+  "best_month_nps": 34.04,
+  "worst_month": "2026-01",
+  "worst_month_nps": -4.08,
+  "detractor_themes": [
+    {
+      "theme": "stock",
+      "detractors": 18,
+      "pct_of_detractors": 22.22
+    },
+    {
+      "theme": "price",
+      "detractors": 16,
+      "pct_of_detractors": 19.75
+    },
+    {
+      "theme": "staff",
+      "detractors": 16,
+      "pct_of_detractors": 19.75
+    },
+    {
+      "theme": "quality",
+      "detractors": 15,
+      "pct_of_detractors": 18.52
+    },
+    {
+      "theme": "delivery",
+      "detractors": 9,
+      "pct_of_detractors": 11.11
+    },
+    {
+      "theme": "cleanliness",
+      "detractors": 7,
+      "pct_of_detractors": 8.64
+    },
+    {
+      "theme": "overall",
+      "detractors": 0,
+      "pct_of_detractors": 0.0
+    }
+  ],
+  "top_detractor_theme": "stock",
+  "top_detractor_theme_count": 18,
+  "actions": [
+    {
+      "title": "Fix delivery speed first",
+      "detail": "Delivery speed is the lowest-rated driver at 3.84/5 and the most strongly tied to overall satisfaction (correlation 0.725) \u2014 fix-first score 0.843, the highest of the five drivers. It is worst at Rawalpindi \u2014 Saddar (3.3/5) and in the online channel. Start with delivery promises at that branch before spending on anything else."
+    },
+    {
+      "title": "Close the gap between Lahore \u2014 Gulberg and Rawalpindi \u2014 Saddar",
+      "detail": "Lahore \u2014 Gulberg scores NPS 34.62 on 130 responses; Rawalpindi \u2014 Saddar scores 4.05 on 74 \u2014 a 30.57-point gap. Every driver is lower at Rawalpindi \u2014 Saddar, so copy what Lahore \u2014 Gulberg does on staffing and stock before opening a new branch."
+    },
+    {
+      "title": "Stop the stock-outs behind the detractors",
+      "detail": "18 of the 81 detractors mention stock (22.22% of all detractors) \u2014 the most common detractor theme. Detractors are 23.14% of all responses, and each one is a customer who will not recommend the store. Fix availability of the items customers keep asking for first."
+    }
+  ]
+}
